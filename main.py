@@ -10,8 +10,6 @@ from sklearn.metrics import accuracy_score
 from xgboost import XGBClassifier
 from flask import Flask, request
 
-
-
 app = Flask(__name__)
 
 
