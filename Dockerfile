@@ -4,7 +4,7 @@ RUN apt-get update
 
 COPY . .
 
-EXPOSE 80
+EXPOSE 8080
 
 RUN pip install -r requirements.txt
 
